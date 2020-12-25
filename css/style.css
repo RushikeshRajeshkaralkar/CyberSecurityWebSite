@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    background-color: #3a41e2;
+    color: white;
+    font-size: 1.2em;
+}
+
+.fa-bars {
+    padding: 0 5px;
+    color: white !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+
+/* banner Section */
+
+.banner {
+    background-color: #3a41e2;
+    color: white;
+}
+
+.cyber-insurans {
+    font-size: 20px;
+    font-weight: 2px;
+    margin-top: 60px;
+}
+
+.main-heading {
+    font-size: 40px;
+    font-weight: 2px;
+    line-height: 40px;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.info-hading {
+    font-size: 14px;
+}
+
+.btn-explore,
+.btn-contact {
+    width: 140px !important;
+    margin: 0 10px;
+    border-radius: 20px !important;
+}
+
+.btn-contact {
+    background-color: #ff872e !important;
+    border-style: none !important;
+    border-color: none !important;
+}
+
+.img-main-footer {
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+
+.fa-phone {
+    margin: 0 10px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+/* Section Services */
+
+#service {
+    padding: 80px 0;
+    width: auto;
+    text-align: center;
+}
+
+.serviceHeading {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.serviceHeading::before {
+    content: "";
+    background-color: #ff872e;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase !important;
+}
+
+.service-img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.btn-allServices {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff872e;
+    color: white;
+}
+
+
+/* About us */
